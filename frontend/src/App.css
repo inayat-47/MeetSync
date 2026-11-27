@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.landingPageContainer {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  padding-block: 1.25rem;
+  padding-inline: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  padding-inline: 2rem;
+  gap: 2.25rem;
+  cursor: pointer;
+}
+
+.landingMainContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  align-items: center;
+  padding-inline: 3rem;
+}
+
+.landingMainContainer>div:nth-child(1) {
+  font-size: 1.5rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] {
+  background-color: #D97500;
+  width: fit-content;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.landingMainContainer>div:nth-child(1) div[role='button'] a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.landingMainContainer>div:nth-child(2) img {
+  height: 60vh;
+  width: auto;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-inline: 1.5rem;
+}
+
+.meetContainer{
+  padding-inline: 1.5rem;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  max-width: 100vw;
+  gap: 10vw;
+}
+
+.leftPanel{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightPanel {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightPanel > img {
+  height: 35rem;
+}
