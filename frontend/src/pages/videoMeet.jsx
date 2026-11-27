@@ -4,8 +4,9 @@ import { TextField, Button, IconButton, Badge } from '@mui/material';
 import { VideocamOff, Videocam, CallEnd, Mic, MicOff, ScreenShare, StopScreenShare, Chat, Send } from '@mui/icons-material';
 
 import io from 'socket.io-client';
+import server from '../environment';
 
-const server_url = "http://localhost:8000";
+const server_url = server;
 
 let connections = {};
 
